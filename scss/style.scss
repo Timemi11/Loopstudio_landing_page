@@ -461,7 +461,9 @@ $path1:
                             position: absolute;
                             font-weight: 300;
                             font-size: 30px;
+                            
                             &:hover{
+                                cursor: pointer;
                                 color: $DarkGray;
                             }
                         }
@@ -495,6 +497,7 @@ $path1:
                     .navbar #toggler{
                        display: block;
                        padding: 0 20px;
+                       cursor: pointer;
                        &:hover{
                            color: $DarkGray;
                        }

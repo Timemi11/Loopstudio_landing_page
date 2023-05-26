@@ -517,6 +517,7 @@ footer .footer-continer .shortlink p {
     font-size: 30px;
   }
   .navbarItem-moblie .brand-icon span:hover {
+    cursor: pointer;
     color: hsl(0, 0%, 55%);
   }
   .navbarItem-moblie ul {
@@ -545,6 +546,7 @@ footer .footer-continer .shortlink p {
   .container .navbar #toggler {
     display: block;
     padding: 0 20px;
+    cursor: pointer;
   }
   .container .navbar #toggler:hover {
     color: hsl(0, 0%, 55%);
