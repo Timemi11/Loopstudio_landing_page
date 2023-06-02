@@ -364,7 +364,7 @@ footer .footer-continer .shortlink p {
     min-width: 550px;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 860px) {
   .creation .showimage {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -475,7 +475,7 @@ footer .footer-continer .shortlink p {
     color: hsl(0, 0%, 55%);
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 750px) {
   @keyframes fade {
     from {
       opacity: 0;
@@ -854,8 +854,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-deep-earth.jpg");
   }
   .creation .showimage .image:nth-child(1) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -868,8 +869,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-night-arcade.jpg");
   }
   .creation .showimage .image:nth-child(2) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -882,8 +884,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-soccer-team.jpg");
   }
   .creation .showimage .image:nth-child(3) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -896,8 +899,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-grid.jpg");
   }
   .creation .showimage .image:nth-child(4) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -910,8 +914,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-from-above.jpg");
   }
   .creation .showimage .image:nth-child(5) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -924,8 +929,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-pocket-borealis.jpg");
   }
   .creation .showimage .image:nth-child(6) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -938,8 +944,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-curiosity.jpg");
   }
   .creation .showimage .image:nth-child(7) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -952,8 +959,9 @@ footer .footer-continer .shortlink p {
     background-image: url("../images/mobile/image-fisheye.jpg");
   }
   .creation .showimage .image:nth-child(8) p {
-    padding: 90px 12rem 1rem 1rem;
+    padding: 110px 12rem 1rem 1rem;
     width: 100%;
+    font-size: 28px;
     bottom: 0;
     left: 20%;
     transform: translateX(-20%);
@@ -970,8 +978,83 @@ footer .footer-continer .shortlink p {
     min-width: 100%;
     font-size: 30px;
   }
+  .creation .topic button {
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+  }
+  .creation .showimage .image:nth-child(1) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(2) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(3) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(4) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(5) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(6) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(7) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(8) p {
+    padding: 100px 10rem 1rem 1rem;
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 321px) {
+  .container .hero h1 {
+    padding: 1.5rem;
+  }
+  .creation .topic button {
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+  }
+  .creation .showimage .image:nth-child(1) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(2) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(3) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(4) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(5) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(6) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(7) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
+  .creation .showimage .image:nth-child(8) p {
+    padding: 100px 7rem 1rem 1rem;
+    font-size: 28px;
+  }
   .about {
     width: 100%;
     padding: 6rem 1rem 0rem 1rem;

@@ -289,7 +289,7 @@ $path1:
         }
     }
    }
-   @media screen and (max-width:769px){
+   @media screen and (max-width:860px){
     .creation{
         .showimage{
             display: grid;
@@ -422,7 +422,7 @@ $path1:
 }
 // End footer
     }
-    @media screen and (max-width:769px){
+    @media screen and (max-width:750px){
         @keyframes fade {
             from{
                 opacity: 0;
@@ -734,8 +734,9 @@ $path1:
                                height: 180px;
                                background-image: url($src);
                                & p{
-                                padding: 90px 12rem 1rem 1rem;
+                                padding: 110px 12rem 1rem 1rem;
                                 width: 100%;
+                                font-size: 28px;
                                 bottom: 0;
                                 left: 20%;
                                 transform: translateX(-20%);
@@ -744,7 +745,7 @@ $path1:
                        }
                    }
                // End
-       }
+                }
 }
 @media screen and (max-width:376px){
    .container{
@@ -758,9 +759,61 @@ $path1:
                    font-size: 30px;
                }   
            }
-   } 
+   }
+       // our-creation
+       .creation{
+        & .topic{
+            & button{
+                padding: .5rem 1rem ;
+                font-size: 20px;
+            }
+        }
+        & .showimage{
+            @each $index, $src in $path1{
+                & .image:nth-child(#{$index}){
+                    & p{
+                     padding: 100px 10rem 1rem 1rem;
+                    font-size: 28px;
+                    }
+                } 
+            }
+        }
+     }
+  // End 
 }
 @media screen and (max-width:321px){
+
+    // hero
+    .container{
+        & .hero{
+            & h1{
+                padding: 1.5rem;
+            }
+        }
+    }
+    // end
+    // our-creation
+    .creation{
+        & .topic{
+            & button{
+                padding: .5rem 1rem ;
+                font-size: 20px;
+            }
+        }
+        & .showimage{
+            @each $index, $src in $path1{
+                & .image:nth-child(#{$index}){
+                    & p{
+                     padding: 100px 7rem 1rem 1rem;
+                    font-size: 28px;
+                    }
+                } 
+            }
+        }
+     }
+  // End
+
+    //  about
     .about{
         width: 100%;
         padding: 6rem 1rem 0rem 1rem;
